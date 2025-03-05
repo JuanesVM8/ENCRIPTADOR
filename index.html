@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador AES-CBC</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🔒 ENCRIPTADOR DE DATOS</h1>  <!-- <h1>🔒 Encriptador AES-CBC</h1> -->
+        <label for="clave">Contraseña:</label>
+        <input type="password" id="clave" placeholder="Escribe tu clave aquí"><br>
+
+        <label for="texto">Texto a Encriptar/Desencriptar:</label>
+        <textarea id="texto" placeholder="Escribe tu mensaje aquí..."></textarea><br>
+
+        <button onclick="ejecutarEncriptacion()">🔐 Encriptar</button>
+        <button onclick="ejecutarDesencriptacion()">🔓 Desencriptar</button>
+
+        <label for="resultado">Resultado:</label>
+        <textarea id="resultado" readonly></textarea>
+    </div>
+
+    <script src="script.js"></script>
+    <footer>
+        <p>Autores: Juan Esteban Vélez Mazo - Sebastián Gómez Sepúlveda</p>
+        <p>Universidad catolica luis amigo</p>
+    </footer>
+    
+</body>
+</html>
