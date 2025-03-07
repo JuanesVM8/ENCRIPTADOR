@@ -1,5 +1,5 @@
 const LONGITUD_SAL = 16;
-const LONGITUD_VECTOR_INICIALIZACION = 16;
+const LONGITUD_VECTOR_INICIALIZACION = 16;  //Definimos las variables
 
 const derivacionDeClaveBasadaEnContraseña = async (contraseña, sal, iteraciones, hash, algoritmo = 'AES-CBC') => {
     const encoder = new TextEncoder();
